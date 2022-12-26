@@ -126,4 +126,54 @@ body{
 .about_part:first-child{
     margin-left: 25px;
 }
+/* **************************************************** */
 
+
+.row4{
+    height: 500px;
+    width: 100%;
+    background: #d7d7d7;
+    margin-top: -20px;
+}
+.service_section{}
+.service_top{
+     text-align: center;
+    padding-top: 40px;
+}
+.service_top h2{
+    text-transform: uppercase;
+}
+.service_top p {
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.service_bottom{}
+.service_part_all{}
+.service_item {
+    width: 217px;
+    float: left;
+    margin-left: 18px;
+    height: 185px;
+    position: relative;
+    overflow: hidden;
+}
+.service_item img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0, 0.5);
+    position: absolute;
+    bottom: -100%;
+    transition: 2s;
+}
+.service_item:hover .overlay{
+    bottom: 0;
+}
+.service_icon{}
+.service_icon i{}
+ 
