@@ -186,6 +186,28 @@ body{
 
 
 /* *************************************************************** */
+.row5 {
+    height: 700px;
+    width: 100%;
+    background: #fff;
+    margin-top: -20px;
+}
+.protfolio_section{}
+.protfolio_top {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.protfolio_top h2{}
+.protfolio_top p {
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.protfolio_bottom {
+    width: 850px;
+    margin: 0 auto;
+}
 
 * { box-sizing: border-box; }
 
@@ -232,9 +254,10 @@ body {
 /* ---- button-group ---- */
 
 .button-group {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+    width: 650px;
+    margin: 25px auto;
 }
-
 .button-group:after {
   content: '';
   display: block;
@@ -265,16 +288,17 @@ body {
 /* ---- .element-item ---- */
 
 .element-item {
-  position: relative;
-  float: left;
-  width: 100px;
-  height: 100px;
-  margin: 5px;
-  padding: 10px;
-
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 217px;
 
 }
-
+.element-item img {
+    height: 100%;
+    width: 100%;
+    border: 10px solid #fff;
+}
 .element-item > * {
   margin: 0;
   padding: 0;
@@ -312,6 +336,7 @@ body {
   top: 76px;
   font-size: 12px;
 }
+/* ******************************************* */
 
 
 
