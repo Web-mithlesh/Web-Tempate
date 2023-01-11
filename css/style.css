@@ -292,50 +292,53 @@ body {
     float: left;
     width: 33%;
     height: 217px;
+    overflow: hidden;
+    border: 10px solid #fff;
+    
 
 }
 .element-item img {
+    position: absolute;
     height: 100%;
     width: 100%;
-    border: 10px solid #fff;
+    
+    
 }
 .element-item > * {
   margin: 0;
   padding: 0;
 }
 
-.element-item .name {
-  position: absolute;
+.isotop_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    top: -100%;
+    transition: 1s;
 
-  left: 10px;
-  top: 60px;
-  text-transform: none;
-  letter-spacing: 0;
-  font-size: 12px;
-  font-weight: normal;
+}
+.element-item:hover .isotop_overlay{
+    top: 0;
+}
+.isotop_overlay h2{
+    text-align: center;
+    color: #fff;
+    line-height: 233px;
+    bottom: -200%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+.element-item:hover .isotop_overlay h2{
+    bottom: 0;
 }
 
-.element-item .symbol {
-  position: absolute;
-  left: 10px;
-  top: 0px;
-  font-size: 42px;
-  font-weight: bold;
-  color: white;
-}
 
-.element-item .number {
-  position: absolute;
-  right: 8px;
-  top: 5px;
-}
 
-.element-item .weight {
-  position: absolute;
-  left: 10px;
-  top: 76px;
-  font-size: 12px;
-}
+
+
 /* ******************************************* */
 
 
