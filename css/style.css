@@ -336,7 +336,92 @@ body {
   top: 76px;
   font-size: 12px;
 }
-/* ******************************************* */
+/* ********************************************************* */
+.row6{
+    height: 430px;
+    background: #fff;
+    margin-top: -20px;
+}
+.pricing_section{}
+.pricing_top {
+	text-align: center;
+}
+.pricing_top h2{}
+.pricing_top p {
+	width: 700px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.pricing_bottom{}
+.pricing_all {
+	width: 87%;
+	margin: 0 auto;
+}
+.pricing_part {
+	float: left;
+	width: 186px;
+	background: #39393a;
+	margin-left: 30px;
+	height: 297px;
+	color: #fff;
+    border-radius: 5px;
+}
+.pricing_part:first-child{
+    margin-left: 0px;
+}
+.pricing_part:hover{
+    background: #87d37c;
+    transition: 1s;
+}
+.pricing_part:hover .pricing_round{
+    background: #fff;
+    color: #87d37c;
+    transition: 1s;
+}
+.pricing_part:hover button{ 
+    background: #fff;
+    color: #87d37c;
+    transition: 1s;
+    border: 1px solid #fff;
+}
+.pricing_round {
+	height: 100px;
+	width: 100px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 20px;
+	padding-top: 23px;
+	margin-top: 20px;
+	margin-bottom: 17px;
+}
+.pricing_part ul{}
+.pricing_part ul li {
+	text-align: center;
+	list-style: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid #fff;
+	width: 135px;
+	margin: 0 auto;
+	padding-bottom: 3px;
+}
+.pricing_part button {
+	color: #000;
+	padding: 5px 15px;
+	display: block;
+	width: 101px;
+	margin: 0 auto;
+}
+.pricing_round p {
+	font-size: 20px;
+	line-height: 25px;
+}
+.pricing_round p sup {
+	font-size: 14px;
+	margin-right: 8px;
+}
+.pricing_round p sub{}
 
 
 
